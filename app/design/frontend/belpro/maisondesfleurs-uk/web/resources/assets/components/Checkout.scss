@@ -1,0 +1,23 @@
+.checkout-cart-index, .checkout-onepage-success {
+	.page-main {
+		padding: 40px 0px;
+	}
+}
+
+.checkout-index-index .page-header {
+	background: #000;
+}
+
+.opc-progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opc-progress-bar-item._active:before {
+	background: #BC9A6A;
+}
+
+.opc-progress-bar-item._active>span:before {
+	background: #BC9A6A;
+}

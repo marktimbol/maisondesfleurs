@@ -1,0 +1,84 @@
+.pt_custommenu {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -20px 0px 10px;
+
+    .parentMenu a {
+		color: #000 !important;
+    }
+
+    // Current Menu
+    .act .parentMenu a {
+    	color: $primary !important;
+    }
+}
+
+.pt_custommenu div.pt_menu .parentMenu a,
+.pt_custommenu div.pt_menu .parentMenu span.block-title {
+	font-weight: 300;
+}
+
+.pt_custommenu div.pt_menu .parentMenu a:hover,
+.pt_custommenu div.pt_menu .parentMenu span.block-title:hover,
+.pt_custommenu div.pt_menu .parentMenu a.act,
+.pt_custommenu div.pt_menu .parentMenu span.block-title.act {
+	color: $primary !important;
+}
+
+// Dropdown
+.pt_custommenu div.popup {
+    left: 0 !important;
+    background: #fff;
+    border-top: 1px solid #b19368;
+    border-left: 1px solid #b19368;
+}
+
+// Dropdown links
+.pt_custommenu div.popup .itemMenu a.level1,
+.pt_custommenu div.popup .itemMenu h4.level1 {
+    color: #000;
+    font-size: 12px;
+}
+
+// Sticky Nav
+.fix-nav-ozmegamenu {
+	background: #000 !important;
+    padding-bottom: 0px !important;
+    
+    // Display only the menus on the sticky header
+    .switchers-container, .logo-home {
+        display: none;
+    }
+
+    .pt_custommenu {
+        margin-bottom: 0;
+        .parentMenu a {
+            color: #fff !important;
+        }
+    }
+}
+
+// Hamburger icon
+.mobile-bar-icon:before {
+	color: $primary;
+}
+
+@media (min-width: 1200px) {
+    .nav-container.visible-lg {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .nav-container.visible-lg {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-container.visible-lg {
+        display: none !important;
+    }
+}

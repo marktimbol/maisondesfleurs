@@ -1,0 +1,34 @@
+<div class="main-container col2-left-layout">	
+	<div class="home-conten">
+		<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static1_banner_home1')->toHtml(); ?>
+		<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static2_home1')->toHtml(); ?>
+		<?php echo $block->getLayout()->createBlock('Plazathemes\Producttab\Block\Producttab')->setTemplate('Plazathemes_Producttab::producttab.phtml')->toHtml();?>
+	</div>
+	<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static3_home1')->toHtml(); ?>
+	<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static4_home1')->toHtml(); ?>
+	<div class="home-conten">
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-xs-12 left-home">
+				<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static5_home1')->toHtml(); ?>
+				<?php echo $block->getLayout()->createBlock('Plazathemes\Pricecountdown\Block\Pricecountdown')->setTemplate('Plazathemes_Pricecountdown::saleslider.phtml')->toHtml();?>
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12 right-home">
+				<?php echo $block->getLayout()->createBlock('Plazathemes\Featureproductslider\Block\Featureproductslider')->setTemplate('Plazathemes_Featureproductslider::featureproductslider.phtml')->toHtml();?>
+				<?php echo $block->getLayout()->createBlock('Plazathemes\Blog\Block\Sidebar\Recent')->setTemplate('Plazathemes_Blog::sidebar/slider.phtml')->toHtml();?>
+			</div>
+		</div>
+	</div>
+	<div class="home-conten">	
+		<div class="subscribe-new">
+			<div class="container-inner">	
+				<div class="subscribe1">
+					<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate('Magento_Newsletter::subscribe.phtml')->toHtml();?>
+				</div>
+			</div>	
+		</div>
+		<div class="intagaram">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\InstagramGallery\Block\InstagramGallery')->setTemplate('Plazathemes_InstagramGallery::plazathemes/instagramgallery/default.phtml')->toHtml();?>
+		</div>
+	</div>
+</div>
+

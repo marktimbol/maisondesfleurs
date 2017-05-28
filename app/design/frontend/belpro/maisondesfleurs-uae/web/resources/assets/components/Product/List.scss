@@ -1,0 +1,34 @@
+.products-list {
+	.product-item {
+		.actions-primary {
+			.action:before {
+				background-image: url("http://dev.belpro.net/maisondesfleurs/pub/media/wysiwyg/box-white.svg") !important;
+			}
+		}
+		.list-left .weltpixel-quickview {
+			display: none !important;
+		}
+		.box-hover .action-quickview {
+			display: none !important;
+		}		
+		.product-item-info {
+			.right-list {
+				padding-top: 0;
+				.product-item-details {
+					margin-top: 0;
+					.product-name .product-item-name a {
+						font-size: 20px;
+						font-weight: 400 !important;
+					}
+					.price-box .price {
+						font-size: 20px;
+					}
+				}
+			}
+			.image-container {
+				border: 1px solid #adadad !important;
+			}
+
+		}	
+	}
+}

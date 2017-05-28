@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/lib/web/mage/redirect-url.js

@@ -1,0 +1,15 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986803;s:6:"expire";i:1495990403;s:4:"tags";s:67:"a5b_BLOCK_HTML,a5b_CATALOG_PRODUCT_155,a5b_CATALOG_PRODUCT,a5b_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="155">
+    
+
+<span class="price-container price-final_price tax weee"
+       >
+        <span
+                data-price-amount="350"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">AED350.00</span>    </span>
+        </span>
+
+</div>

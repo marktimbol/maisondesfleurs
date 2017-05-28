@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<gemma>
+    <blocks>
+	
+		<block>
+            <title>Contact us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                    <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" width="100%" height="350"></iframe></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="footer-static row">
+						<div class="col-sm-2 col-xs">
+						<div class="iner-logo">
+						<div class="logo-footer"><a class="logo" href="#"><img src="{{media url="wysiwyg/logo-footer.png"}}" alt="" /></a></div>
+						<div class="text-logo">
+						<p>Copyright &copy; 2017 Magento.</p>
+						<p>All rights reserved.</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-sm-2 col-xs">
+						<div class="footer-static-title f-title2">
+						<h3>MY ACCOUNT</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="customer/account/"}}">My Account</a></li>
+						<li><a href="{{store direct_url="sales/order/history/"}}">Order History</a></li>
+						<li><a href="{{store direct_url="contacts/"}}">Contact Us</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li class="last"><a href="#">Terms &amp; Condition</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-2 col-xs">
+						<div class="footer-static-title f-title3">
+						<h3>Information</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+						<li><a href="#">Delivery Information</a></li>
+						<li><a href="#">Specials </a></li>
+						<li><a href="#">Manufactureres </a></li>
+						<li class="last"><a href="#">Site Map</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-2 col-xs">
+						<div class="footer-static-title f-title3">
+						<h3>QUICK LINKS</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="#">New User</a></li>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Refund Policy </a></li>
+						<li><a href="#">Report Spam </a></li>
+						<li class="last"><a href="#">FAQs</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-2 col-xs">
+						<div class="footer-static-title f-title4">
+						<h3>CONTACT US</h3>
+						</div>
+						<div class="footer-static-content">
+						<div class="text text1">
+						<div class="icon"><i class="fa fa-home"></i> <span>home</span></div>
+						<div class="iner-tex">
+						<p>123 New Design Str, ABC Building,</p>
+						<p>Melbourne, Australia</p>
+						</div>
+						</div>
+						<div class="text text2">
+						<div class="icon"><i class="fa fa-mobile"></i> <span>phone</span></div>
+						<div class="iner-tex">
+						<p>(+1)866-540-3229</p>
+						</div>
+						</div>
+						<div class="text text3">
+						<div class="icon"><i class="fa fa-envelope-o"></i> <span>mail</span></div>
+						<div class="iner-tex">
+						<p>hello@yourdomain.com</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						<div class="col-sm-2 col-xs">
+						<div class="footer-static-title f-title3">
+						<h3>follow us on</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul class="link-follow">
+						<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></li>
+						<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a></li>
+						<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/plazathemes1"><span>facebook</span></a></li>
+						<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></li>
+						<li><a class="instagram fa fa-instagram" title="instagram" href="#"><span>instagram </span></a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>footer bottom home</title>
+            <identifier>footer_bottom_home</identifier>
+            <content>
+                    <![CDATA[
+						<div class="bottom-footer">
+						<div class="row">
+						<div class="col-md-3 col-sm-12 col-xs-12 ">
+						<div class="iner-box box1">
+						<div class="icon"><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/plazathemes1"><span>facebook</span></a></div>
+						</div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 ">
+						<div class="iner-box box2">
+						<div class="icon"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></div>
+						</div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 ">
+						<div class="iner-box box3">
+						<div class="icon"><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></div>
+						</div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 ">
+						<div class="iner-box box4">
+						<div class="icon"><a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer payment</title>
+            <identifier>footer_payment</identifier>
+            <content>
+                    <![CDATA[
+						<p><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static1 banner home1</title>
+            <identifier>static1_banner_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static1-top">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 left">
+						<div class="box1 bos">
+						<div class="box-iner"><a href="{{store direct_url="shop/top.html"}}"> <img src="{{media url="wysiwyg/home1-banner1.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h4>Gemma Barbershop</h4>
+						<h3>Create and</h3>
+						<h3>Renovate Hair Style</h3>
+						<h3>Trends</h3>
+						</div>
+						</div>
+						</div>
+						<div class="box2 bos">
+						<div class="box-iner"><a href="{{store direct_url="shop/top.html"}}"><img src="{{media url="wysiwyg/home1-banner3.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h2>20% Off Shears</h2>
+						<h4>Look sharp for the holidats with</h4>
+						<h4>Our expertly crafted shears</h4>
+						<p><a href="#">Shop Now</a></p>
+						</div>
+						</div>
+						</div>
+						<div class="box3 bos">
+						<div class="box-iner"><a href="{{store direct_url="shop/top.html"}}"><img src="{{media url="wysiwyg/home1-banner4.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>Straight Razors</h3>
+						<p>These hand-crafted straight razors by</p>
+						<p>Thiers Issard are made exclusively for Gemma</p>
+						<p>Experience the perfect shave today.</p>
+						<p><a href="#">View Products</a></p>
+						</div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 right">
+						<div class="box1 bos">
+						<div class="box-iner"><a href="{{store direct_url="shop/top.html"}}"><img src="{{media url="wysiwyg/home1-banner2.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<div class="h4"><img src="{{media url="wysiwyg/home1-banner1-2-icon.png"}}" alt="" /></div>
+						<h4>Gemma Barbershop</h4>
+						<h3>Barbershop is not a hobby</h3>
+						<h3>It&rsquo;s a life style</h3>
+						<p><a href="#">Shop now</a></p>
+						</div>
+						</div>
+						</div>
+						<div class="box2 bos">
+						<div class="iner-box">
+						<div class="bos1">
+						<div class="box-iner"><a href="{{store direct_url="shop/top.html"}}"><img src="{{media url="wysiwyg/home1-banner5.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>Rarzors<em>Barbershop</em></h3>
+						<h4>Somerville, ma</h4>
+						</div>
+						</div>
+						</div>
+						<div class="bos2">
+						<div class="box-iner"><a href="{{store direct_url="shop/top.html"}}"><img src="{{media url="wysiwyg/home1-banner6.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>HOLIDAY GIFT GUIDE</h3>
+						<p>His Holiday Essentials,</p>
+						<p>Up To</p>
+						<p>$50, $100, and $200</p>
+						<p><a href="#">EXPLORE COLLECTION</a></p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links  home1</title>
+            <identifier>pt_menu_links_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+							<div class="parentMenu">
+								<ul class="mobilemenu">
+									<li><a href="{{store url="blog"}}">Blog</a></li>
+									<li><a href="{{store url="contact"}}">Contact Us</a></li>
+									<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+								</ul>
+							</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static2 home1</title>
+            <identifier>static2_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static2-home-conten">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 ">
+						<div class="box-col"><a href="{{store direct_url="shop/top.html"}}"> <img src="{{media url="wysiwyg/home1-aboutus1.png"}}" alt="" /> </a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 ">
+						<div class="box-text">
+						<h3>About us</h3>
+						<div class="icon1"><i class="icon ion-scissors">ionscissors</i>
+						<p>Designed with the modern man in mind, the GEMMA barbershop is the quintessence of a true gentleman&rsquo;s retreat. Our mission is to ensure the capital&rsquo;s most distinguished men are always looking on top of their game.</p>
+						<p>GEMMA products combine an old-world approach to packaging and design with the very best in modern, natural ingredients. The result is a supercharged line-up of men&rsquo;s shaving, hair, body and skin care products that together constitute a superior grooming ritual.</p>
+						</div>
+						<div class="img"><img src="{{media url="wysiwyg/home1-aboutus-logo.png"}}" alt="" /></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static3 home1</title>
+            <identifier>static3_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-conten">
+						<div class="home-conten">
+						<div class="text">
+						<h3>FREE SHIPPING</h3>
+						<h4>ENJOY SHIPPING WITH OUR COMPLIMENTS*</h4>
+						<h4>FOR A LIMITED TIME ONLY</h4>
+						<p>*Gift Cards excluded</p>
+						<p><a href="{{store direct_url="shop.html"}}">SHOP MID-SIZE KITS</a></p>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static4 home1</title>
+            <identifier>static4_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static4-home-conten">
+						<div class="container-inner">
+						<div class="box-home">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-refresh-alt zmdi-hc-fw"><span>refresh-alt</span></i></div>
+						<div class="text">
+						<h3>FREE RETURN</h3>
+						<p>30 days money back guarantee!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2 ">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-truck zmdi-hc-fw"><span>truck</span></i></div>
+						<div class="text">
+						<h3>Free Shipping</h3>
+						<p>Free shipping on all order</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3 ">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-phone-ring zmdi-hc-fw"><span>phone-ring</span></i></div>
+						<div class="text">
+						<h3>Support 24/7</h3>
+						<p>We support online 24 hours a day</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static5 home1</title>
+            <identifier>static5_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static5-home1">
+							<div class="box-col"><a href="{{store direct_url="shop/top.html"}}"><img src="{{media url="wysiwyg/home1-img-left.jpg"}}" alt="" /> </a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static1 home2</title>
+            <identifier>static1_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static1-home2-conten">
+						<div class="box-home">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-refresh-alt zmdi-hc-fw"><span>refresh-alt</span></i></div>
+						<div class="text">
+						<h3>FREE RETURN</h3>
+						<p>30 days money back guarantee!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2 ">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-truck zmdi-hc-fw"><span>truck</span></i></div>
+						<div class="text">
+						<h3>Free Shipping</h3>
+						<p>Free shipping on all order</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3 ">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-phone-ring zmdi-hc-fw"><span>phone-ring</span></i></div>
+						<div class="text">
+						<h3>Support 24/7</h3>
+						<p>We support online 24 hours a day</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static2 home2</title>
+            <identifier>static2_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static2-home2">
+						<div class="box-col"><a href="{{store direct_url="mens/shops.html"}}"><img src="{{media url="wysiwyg/img1-home2.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>footer static home2 home4</title>
+            <identifier>footer_static_home2_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="footer-static row">
+						<div class="col-sm-6 col-xs">
+						<div class="iner-logo footer-static-title f-title1">
+						<div class="logo-footer"><a class="logo" href="#"><img src="{{media url="wysiwyg/logo-footer-home2.png"}}" alt="" /></a></div>
+						</div>
+						<div class="footer-static-content footer-title">
+						<div class="des-footer">
+						<div class="text text1">
+						<div class="icon"><i class="fa fa-home"></i> <span>home</span></div>
+						<div class="iner-tex">
+						<p>123 New Design Str, ABC Building,</p>
+						<p>Melbourne, Australia</p>
+						</div>
+						</div>
+						<div class="text text2">
+						<div class="icon"><i class="fa fa-mobile"></i> <span>phone</span></div>
+						<div class="iner-tex">
+						<p>(+1)866-540-3229</p>
+						</div>
+						</div>
+						<div class="text text3">
+						<div class="icon"><i class="fa fa-envelope-o"></i> <span>mail</span></div>
+						<div class="iner-tex">
+						<p>hello@yourdomain.com</p>
+						</div>
+						</div>
+						</div>
+						<ul class="link-follow">
+						<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></li>
+						<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a></li>
+						<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/plazathemes1"><span>facebook</span></a></li>
+						<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></li>
+						<li><a class="instagram fa fa-instagram" title="instagram" href="#"><span>instagram </span></a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-6 col-xs">
+						<div class="footer-static-title f-title2">
+						<h3>Quick links</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="customer/account/"}}">My Account</a></li>
+						<li><a href="{{store direct_url="sales/order/history/"}}">Order History</a></li>
+						<li><a href="{{store direct_url="contacts/"}}">Contact Us</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li><a href="#">Manufactureres </a></li>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Refund Policy </a></li>
+						<li><a href="#">Report Spam </a></li>
+						<li class="last"><a href="#">Terms &amp; Condition</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links  home2</title>
+            <identifier>pt_menu_links_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="{{store url="blog"}}">Blog</a></li>
+						<li><a href="{{store url="contact"}}">Contact Us</a></li>
+						<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links  home3</title>
+            <identifier>pt_menu_links_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="{{store url="blog"}}">Blog</a></li>
+						<li><a href="{{store url="contact"}}">Contact Us</a></li>
+						<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static1 home3</title>
+            <identifier>static1_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static1-home3">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 box1">
+						<div class="box-col"><a href="{{store direct_url="new-mens.html"}}"><img src="{{media url="wysiwyg/img1_gema3.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 box2 ">
+						<div class="box-col"><a href="{{store direct_url="new-mens.html"}}"><img src="{{media url="wysiwyg/img2_gema3.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static2 home3</title>
+            <identifier>static2_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static1-home3-conten">
+						<div class="container-inner">
+						<div class="box-home">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-refresh-alt zmdi-hc-fw"><span>refresh-alt</span></i></div>
+						<div class="text">
+						<h3>FREE RETURN</h3>
+						<p>30 days money back guarantee!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2 ">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-truck zmdi-hc-fw"><span>truck</span></i></div>
+						<div class="text">
+						<h3>Free Shipping</h3>
+						<p>Free shipping on all order</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3 ">
+						<div class="iner-box">
+						<div class="icon"><i class="zmdi zmdi-phone-ring zmdi-hc-fw"><span>phone-ring</span></i></div>
+						<div class="text">
+						<h3>Support 24/7</h3>
+						<p>We support online 24 hours a day</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static3 home3</title>
+            <identifier>static3_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static3-home3">
+						<div class="text">
+						<h1>FREE SHIPPING</h1>
+						<p>ENJOY SHIPPING WITH OUR COMPLIMENTS*</p>
+						<p>FOR A LIMITED TIME ONLY</p>
+						<span>*Gift Cards excluded</span> <a class="link" href="{{store direct_url="new-mens.html"}}">shop mens' sneaker</a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static top home4</title>
+            <identifier>static_top_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static_top_home4">
+						<div class="row">
+						<div class="col-md-3">
+						<div class="box-iner box1"><a href="#"><img src="{{media url="wysiwyg/img1_gemme4.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>the business of style</h3>
+						<a class="link" href="{{store direct_url="mens.html"}}">shop now</a></div>
+						</div>
+						</div>
+						<div class="col-md-3">
+						<div class="box-iner box2"><a href="#"><img src="{{media url="wysiwyg/img2_gemme4.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>graffiti bag</h3>
+						<p>Sale Off 50%</p>
+						<a class="link" href="{{store direct_url="mens/shirts.html"}}">shop now</a></div>
+						</div>
+						</div>
+						<div class="col-md-3">
+						<div class="box-iner box3"><a href="#"><img src="{{media url="wysiwyg/img3_gemme4.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>new collection</h3>
+						<p>Fashion 2017</p>
+						<a class="link" href="{{store direct_url="mens/shirts.html"}}">shop now</a></div>
+						</div>
+						</div>
+						<div class="col-md-3">
+						<div class="box-iner box4"><a href="#"> <img src="{{media url="wysiwyg/img4_gemme4.jpg"}}" alt="" /> </a>
+						<div class="text">
+						<h3>vintage shoes</h3>
+						<p>Offical Product</p>
+						<a class="link" href="{{store direct_url="mens/shirts.html"}}">shop now</a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links  home4</title>
+            <identifier>pt_menu_links_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+							<div class="parentMenu">
+								<ul class="mobilemenu">
+									<li><a href="{{store url="blog"}}">Blog</a></li>
+									<li><a href="{{store url="contact"}}">Contact Us</a></li>
+									<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+								</ul>
+							</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static2 home4</title>
+            <identifier>static2_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static2-home4">
+						<div class="box-col"><a href="{{store direct_url="mens/shops.html"}}"><img src="{{media url="wysiwyg/img1-home2.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		
+	</blocks>
+</gemma>

@@ -1,0 +1,54 @@
+.item .item-inner .product-item-info .box-hover .actions-primary .action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&:before {
+	    width: 20px;
+	    height: 17px;
+		content: ' ';
+	    top: inherit;
+	    left: inherit;		
+		background-image: url('http://dev.belpro.net/maisondesfleurs/pub/media/wysiwyg/box.svg');
+	}
+}
+
+// Grid
+.product-item .price-box .price {
+	font-weight: normal;
+}
+
+// Carousel
+.product-item-info .product-item-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item-name a, .product.name a a {
+    font-size: 15px;
+    font-weight: normal !important;
+    font-family: Montserrat, Arimo;
+}
+
+.price-container .price {
+    color: #8f8f8f;
+	font-size: 15px;
+    font-weight: normal;
+	font-family: Montserrat, Arimo;
+}
+
+.product-item-info {
+	.image-container {
+		border: 1px solid #8f8f8f;
+	}
+}
+
+.products-list {
+	button.action:before {
+	    height: 23px !important;
+	    left: 20px !important;
+	}
+}
+
+@import './Product/View/Details';
+@import './Product/View/Description';

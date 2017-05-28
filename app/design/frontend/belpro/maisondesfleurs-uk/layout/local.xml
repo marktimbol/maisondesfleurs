@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layout>
+	<default>
+		<block type="page/switch" name="store_switcher" as="store_switcher" template="page/switch/stores.phtml"/>
+	</default>
+</layout>

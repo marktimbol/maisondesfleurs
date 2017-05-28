@@ -1,0 +1,36 @@
+.catalog-category-view {
+	ul.pages-items {
+		li.item {
+			line-height: 24px !important;
+			a.page {
+				color: #333;
+			    padding: 15px;
+			    line-height: 0;
+			    border: 1px solid #ddd;
+			    &:hover {
+			    	color: #fff;
+			    	border: 1px solid $primary;
+			    	background: $primary;
+			    }
+			}			
+			&.current {
+				strong {
+					color: #fff;
+				    padding: 15px;
+				    line-height: 2px !important;					
+					background: $primary;
+				}
+			}
+		}
+		li.pages-item-next, li.pages-item-previous {
+			a {
+				color: #333;
+			    padding: 3px;
+			    border: 1px solid #ddd;
+			}
+		}
+		li.pages-item-previous a:before {
+			font-size: 36px;
+		}
+	}
+}

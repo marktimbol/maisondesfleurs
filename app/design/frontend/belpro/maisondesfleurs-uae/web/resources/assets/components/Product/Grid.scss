@@ -1,0 +1,24 @@
+.products-grid {
+	.product-item {
+		.actions-primary {
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+		}
+		.list-left .weltpixel-quickview {
+			display: none !important;
+		}
+		.action-quickview:before {
+		    content: '\f133';
+		    display: inline-block;
+		}
+		.box-hover {
+			top: 0;
+		}
+		.product-item-info {
+			.image-container {
+				border: 1px solid #adadad;
+			}
+		}	
+	}
+}

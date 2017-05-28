@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/app/code/WeltPixel/Backend/view/adminhtml/web/jscolor/jscolor.js

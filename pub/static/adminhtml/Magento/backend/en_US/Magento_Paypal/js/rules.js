@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/vendor/magento/module-paypal/view/adminhtml/web/js/rules.js

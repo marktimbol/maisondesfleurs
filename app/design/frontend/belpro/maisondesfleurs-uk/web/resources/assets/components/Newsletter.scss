@@ -1,0 +1,44 @@
+
+#newsletter_pop_up {
+	.title {
+		margin-top: 30px;
+	}
+	img {
+		width: 30%;
+	}
+
+	.Shopping {
+		margin-top: -30px;
+	}
+	.Shopping__options {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;		
+		p {
+			margin-right: 10px;
+			margin-bottom: 0;
+			font-weight: bold;
+		}
+		ul {
+			display: flex;
+			align-items: center;
+			list-style: none;
+			margin-bottom: 0;			
+			li {
+			    margin-right: 15px;
+			    margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.form-subscribe .control {
+	input {
+		text-align: center;
+	}
+	button {
+		height: 40px;
+		font-size: 13px;
+	}
+}

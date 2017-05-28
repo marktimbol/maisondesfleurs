@@ -1,0 +1,125 @@
+Name => 1 White Orchid Bloom and White Roses
+Attribute => Ref 123
+Price	=> 380
+Category => Fresh Flowers
+
+Colors
+	White => 139
+	Cream	=> 135
+	Purple => 133
+	Fuchsia => 131
+	Yellow => 129
+	Baby Pink => 127
+	Red = > 125
+	Pink => 123
+	Orange => 137
+
+
+=======================================
+
+Name => Roses in Black Small Square Box
+Attribute => Ref 126
+Price	=> 350
+Category => Fresh Flowers
+
+Colors
+	White => 140
+	Cream	=> 136
+	Purple => 134
+	Fuchsia => 132
+	Yellow => 130
+	Baby Pink => 128
+	Red = > 126
+	Pink => 124
+	Orange => 138
+
+=======================================	
+
+Name: White Orchids and Roses
+Attribute: Ref 50
+Price: 840
+Category: Fresh Flowers
+
+Box Color: Black
+Flower Colors
+	Purple => 57
+	Baby Pink => 56
+	White => 55
+	Fuchsia => 54
+	Cream => 53
+	Red => 51
+	Orange => 50
+
+=======================================	
+
+Name: 3 White Orchid Blooms and Roses
+Attribute: Ref 66
+Price: 890
+Category: Fresh Flowers
+
+Box Color: White
+	Orange => 66
+	White => 81
+	Pink => 79
+	Cream => 77
+	Fuchsia => 75
+	Baby Pink => 73
+	Yellow => 71
+	Red => 69
+
+=======================================	
+
+Name: 3 White Orchid Blooms and Roses in Round Box
+Attribute: Ref 200
+Price: 740
+Category: Fresh Flowers
+
+Colors
+	Fuchsia => 207
+	Red => 205
+	Cream => 204
+	Orange => 202
+	Yellow	=> 201
+	Baby Pink => 200
+
+=======================================	
+
+Name: Purple Orchid Stem and Roses
+Attribute: 172
+Price: 800
+Colors
+	Pink => 209
+	Fuchsia => 208
+	White => 206
+	Red => 172
+
+=======================================		
+	
+Name: Roses in Black Round Box
+Attribute: Ref 146
+Price: 650
+Colors
+	Purple => 154
+	Orange => 152
+	Cream => 151
+	Yellow => 150
+	Fuchsia => 149
+	Pink => 148
+	Red => 147
+	White => 146
+	Baby Pink => 153
+
+=======================================		
+
+Name: Purple Orchid Stem with Roses
+Attribute: Ref 96
+Price: 850
+Color
+	Baby Pink => 113
+	Pink => 110
+	Yellow => 107
+	Red => 102
+	Cream => 99
+	Purple => 96
+
+

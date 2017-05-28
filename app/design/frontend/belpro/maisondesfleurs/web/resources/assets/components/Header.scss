@@ -1,0 +1,87 @@
+.header-container {
+	background: #fff;
+
+	.logo-home {
+		text-align: center;
+		margin-top: -62px;
+		margin-bottom: 20px;
+	    position: relative;
+	    z-index: -1;
+	}
+
+	.logo img {
+		width: 11%;
+	}
+
+	.top-bar {
+	    padding: 0;
+	}
+
+	.shop_online {
+	    border-radius: 0;
+	    font-weight: bold;
+		background: $primary;
+	    text-transform: uppercase;
+	    &:hover, &:focus, &:active {
+	    	color: #fff;
+	    }
+	}
+
+	.website-switcher {
+		float: none !important;
+		text-align: left;
+		margin-bottom: 10px;	
+		padding-top: 0;
+
+		.switcher-dropdown {
+			left: 0;
+			width: 200px;
+			&:before, &:after {
+				left: 0;
+			}
+			a {
+				text-align: left;
+			}
+		}	
+	}
+
+	.minicart-wrapper {
+		margin-left: 10px;
+		margin-right: 0;
+		.action.showcart.active:before {
+			content: "";
+		}
+	}
+
+	.search-switcher:before {
+		display: none;
+	}
+
+	#search_mini_form {
+	    opacity: 1;
+	    visibility: visible;
+	    z-index: 1;
+
+	    top: 35px !important;
+	    padding: 0;
+	    border: 0 !important;
+	    background: transparent;
+	    box-shadow: none !important;
+
+	    .search {
+	    	height: 34px;
+	    	border-color: $primary;
+	    	input {
+	    		color: $primary;
+	    	}
+	    	button:before {
+	    		font-size: 24px;
+	    		color: $primary;
+	    		line-height: 16px;
+	    	}
+	    }
+	}	
+}
+
+@import './Nav';
+@import './NavSwitcher';

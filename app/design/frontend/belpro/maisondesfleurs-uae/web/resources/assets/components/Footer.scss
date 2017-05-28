@@ -1,0 +1,125 @@
+.footer-container {
+	.footer-border {
+		width: 65%;
+		height: 1px;
+		margin: 0 auto;
+		margin-top: 80px;	
+		position: relative;
+		background: #a2a2a2;
+		&:before, &:after {
+			content: " ";
+			top: -5px;
+			width: 10px;
+			height: 10px;	
+			background: $primary;		
+			position: absolute;
+		}
+		&:before {
+			left: 0;			
+		}
+		&:after {
+			right: 0;			
+		}		
+	}	
+	.footer-top {
+		background: #fff;
+		padding-top: 50px !important;
+		.logo-footer {
+			margin-bottom: 20px;
+		}
+		.text-logo p {
+			color: $primary;
+			font-size: 11px;
+		}
+		.footer-static-title {
+			h3 {
+				color: $primary;
+			}
+			&:after {
+				color: $primary;
+			}
+		}
+		.footer-static-content {
+			.link-follow li a {
+				color: $primary;
+				background: transparent;
+			}
+			.text {
+				display: flex;
+				.iner-tex p {
+					color: $primary;
+				}
+			}
+			.icon i {
+				color: $primary;
+			}
+			ul li a {
+				color: $primary;
+				&:hover {
+					color: $primary;
+					&:after {
+						color: $primary;
+					}
+				}
+				&:after {
+					background: $primary;
+				}
+			}
+		}
+		a {
+			color: $primary;
+		}
+	}
+	.iner-logo {
+		padding-top: 0;
+	}
+	.powered_by {
+		margin-top: 20px;
+		p {
+		    display: flex;
+		    align-items: center;
+		    a {
+	    	    margin-left: 10px;
+		    }
+		}
+	}
+}
+
+.intagaram .title_text {
+	text-transform: inherit;
+	a {
+		color: #bc9051;
+	}
+}
+
+ul.payment-options {
+	display: flex;
+	li {
+		margin-right: 10px;
+	}
+}
+
+
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 320px) 
+	and (max-device-width: 480px)
+	and (-webkit-min-device-pixel-ratio: 2)
+{
+	.footer-container .footer-top .footer-static-title h3 {
+		margin-top: 10px;
+	}
+
+	.footer-container .iner-logo {
+		text-align: center;
+	}
+
+	.sprite-logo-footer {
+	    margin: 0 auto;
+	}
+
+	.footer-container .powered_by {
+		display: flex;
+		justify-content: center;
+	}
+}

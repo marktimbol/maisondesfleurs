@@ -1,0 +1,87 @@
+.switchers-container {
+    padding: 20px 0 0;
+    
+	.page-header {
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+	.switcher-store {
+		margin-top: 0;
+	}
+
+	.switcher .switcher-options .mage-dropdown-dialog {
+		bottom: 0px;
+	}
+
+	.page-header {
+		float: left;
+	}
+
+	.switcher-language .switcher-options .action .fa {
+		color: #000;
+	}
+
+	.website-switcher .dropdown {
+		strong.view-default {
+			position: relative;
+			padding-left: 25px;
+			span.flag-icon {
+				left: 0;
+				top: -2px;
+			    font-size: 20px;				
+				position: absolute;
+			}
+		}
+	}	
+}
+
+// Currency Switcher
+.switcher-currency .switcher-options strong span {
+	font-size: 12px;
+    text-transform: uppercase;
+    font-family: Montserrat,Arial,Helvetica,sans-serif;
+}
+
+.minicart-wrapper .action.showcart:before {
+	width: 25px;
+	height: 22px;
+	content: ' ';
+	background-image: url('http://dev.belpro.net/maisondesfleurs/pub/media/wysiwyg/box.svg');
+}
+
+.minicart-wrapper .action.showcart .counter.qty {
+	visibility: hidden;
+}
+
+.options-group .setting-group .dynamic-links {
+	display: none;
+}
+
+.switcher .switcher-options strong {
+	color: #000;
+    font-size: 12px;	
+    text-transform: uppercase;
+    font-family: Montserrat,Arial,Helvetica,sans-serif;
+}
+
+// Language Switcher
+.switcher-language .switcher-options {
+	.action .fa:before {
+		content: "\f107";
+		font-family: FontAwesome;
+	}
+	.switcher-dropdown {
+	    text-transform: uppercase;
+		font-family: Montserrat,Arial,Helvetica,sans-serif;
+	}
+}
+
+.switcher-currency .switcher-options strong span {
+	color: #000;
+}
+
+.search-switcher:before {
+	color: #000;
+}

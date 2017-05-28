@@ -1,0 +1,39 @@
+// $primary: #bc9051;
+$primary: #bc9b6a;
+
+@import 'components/Header';
+@import 'components/Breadcrumbs';
+@import 'components/Banners';
+@import 'components/Item';
+@import 'components/Catalog';
+@import 'components/ShareProduct';
+@import '~flag-icon-css/css/flag-icon.css';
+
+.flag-icon {
+	font-size: 22px;
+	border-radius: 50%;
+}
+
+.equal-height {
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333;
+    text-transform: uppercase;
+    font-family: Montserrat, 'Arimo',sans-serif;
+}
+
+// Temporary Fix
+.verticalmenu-container {
+	display: none !important;
+}
+
+@import 'components/Sprites';
+@import 'components/Newsletter';
+@import 'components/Checkout';
+@import 'components/OwlCarousel';
+@import 'components/Footer';
+@import 'components/Overwrite';
+@import 'components/MediaQueries';

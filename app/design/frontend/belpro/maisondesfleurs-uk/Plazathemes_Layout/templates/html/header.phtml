@@ -1,0 +1,120 @@
+<?php // $block->renderFileLessToCss(); ?>
+<header class="header-container">
+	<div class="top-bar">
+		<div class="row switchers-container">
+			<div class="col-md-6">
+				<div class="switcher language switcher-language website-switcher" data-ui-id="language-switcher" id="switcher-language">
+					<div class="actions dropdown options switcher-options">
+						<div class="action toggle switcher-trigger" id="switcher-language-trigger">
+							<strong class="view-default">
+								<span class="flag-icon flag-icon-gb flag-icon-squared"></span> &nbsp;<span>United Kingdom<i class="fa fa-angle-down">&nbsp;</i></span>
+							</strong>
+						</div>
+						<ul class="dropdown switcher-dropdown">
+							<li class="view-global_ar switcher-option">
+								<a href="#">Global</a></a>
+							</li>
+							<li class="view-global_ar switcher-option">
+								<a href="#">United Arab Emirates</a></a>
+							</li>								
+						</ul>
+					</div>
+				</div>
+				<?php echo $this->getChildHtml("currency"); ?>	
+				<?php echo $this->getChildHtml("store_language"); ?>								
+			</div>
+			<div class="col-md-6">
+				<div>
+					<div class="search-switcher">
+						<?php echo $this->getChildHtml("top.search"); ?>	
+					</div>	
+					<ul class="Top__links">
+						<li><a href="/maisondesfleurs/wishlist/"><i class="fa fa-heart-o"></i></a></li>
+						<li>
+							<div class="card"><?php echo $this->getChildHtml("minicart");?></div>
+						</li>
+						<li><a href="/maisondesfleurs/customer/account/login/">Sign In</a></li>
+						<li><a href="/maisondesfleurs/checkout/">Checkout</a></li>
+					</ul>
+				</div>	
+				<div class="mobile-bar-icon">
+					<span><?php /* @escapeNotVerified */ echo __('mobile icon'); ?></span>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logo-home"><?php echo $this->getChildHtml("logo"); ?></div>	
+			</div>
+			<div class="col-md-12">
+				<div class="menu-icon">
+					<div class="nav-ozmegamenu-inner">
+						<?php echo $this->getChildHtml("hozmegamenu_top"); ?>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<div class="mobile-bar-content">
+		<div class ="mobile-bar-close"><?php /* @escapeNotVerified */ echo __('Close'); ?></div>
+		<ul class = "tabs-mobile">
+			<li class="item item-menu"><?php /* @escapeNotVerified */ echo __('Menu'); ?></li>
+			<li class="item item-setting"><?php /* @escapeNotVerified */ echo __('Setting'); ?></li>
+		</ul>
+		<div class="tabs-content-mobile tabs-menu">
+			<?php echo $this->getChildHtml("mobilemenu"); ?>
+		</div>
+		<div class="tabs-content-mobile tabs-setting" style="display:none;">
+			<?php echo $this->getChildHtml("top.links"); ?>
+			<?php echo $this->getChildHtml("store_language_mobile"); ?>
+			<?php echo $this->getChildHtml("currency_mobile"); ?>
+		</div>
+	</div>
+</header>
+
+<script type="text/javascript">
+require(["jquery"], function($){
+	$(document).ready(function(){
+		<!-- show, hide mobile bar content -->
+		$(".mobile-bar-icon").click(function(){
+			$(".mobile-bar-content").addClass("open");
+		});
+		$(".mobile-bar-close").click(function(){
+			$(".mobile-bar-content").removeClass("open");
+		});
+		
+		<!-- choose tabs-->
+		$(".tabs-mobile .item-menu").addClass("active");
+		$(".tabs-mobile .item").click(function(){
+			$(".tabs-mobile .item").removeClass("active");
+			$(this).addClass("active");
+		});
+		$(".tabs-mobile .item-menu").click(function(){
+			$(".tabs-content-mobile").css("display","none");
+			$(".tabs-menu").css("display","block");
+		});
+		$(".tabs-mobile .item-account").click(function(){
+			$(".tabs-content-mobile").css("display","none");
+			$(".tabs-account").css("display","block");
+		});
+		$(".tabs-mobile .item-setting").click(function(){
+			$(".tabs-content-mobile").css("display","none");
+			$(".tabs-setting").css("display","block");
+		});
+		
+	});
+	
+	$(window).scroll(function () {
+	   if ($(this).scrollTop() > 160) {
+		 $('.top-bar').addClass("fix-nav-ozmegamenu");
+	   } else {
+		$('.top-bar').removeClass("fix-nav-ozmegamenu");
+	   }
+	});
+	
+});
+</script>
+
+
+

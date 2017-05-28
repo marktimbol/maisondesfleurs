@@ -1,0 +1,25 @@
+// $primary: #bc9051;
+$primary: #bc9b6a;
+
+@import 'components/Header';
+@import 'components/Banners';
+@import 'components/Item';
+@import 'components/ShareProduct';
+
+.equal-height {
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333;
+    text-transform: uppercase;
+    font-family: Montserrat, 'Arimo',sans-serif;
+}
+
+@import 'components/Sprites';
+@import 'components/Newsletter';
+@import 'components/Checkout';
+@import 'components/Footer';
+@import 'components/Overwrite';
+@import 'components/MediaQueries';

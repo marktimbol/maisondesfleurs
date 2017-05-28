@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/lib/web/jquery/jquery.cookie.js

@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/vendor/magento/module-ui/view/frontend/web/js/model/messages.js

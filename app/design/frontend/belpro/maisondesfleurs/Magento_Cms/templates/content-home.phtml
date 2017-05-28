@@ -1,0 +1,80 @@
+<div class="main-container col2-left-layout">	
+	<div class="home-conten home-content">
+		<div class="static1-top">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 left">
+					<div class="box1 bos">
+						<div class="box-iner">
+							<?php echo $this->getLayout()
+								->createBlock('Magento\Cms\Block\Block')
+								->setBlockId('banner_global')
+								->toHtml();
+							?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="static1-top">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 left banner2_global">
+					<div class="box1 bos">
+						<div class="box-iner">
+							<?php echo $this->getLayout()
+								->createBlock('Magento\Cms\Block\Block')
+								->setBlockId('banner2_global')
+								->toHtml();
+							?>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="static1-top">
+			<div class="row equal-height">
+				<div class="col-md-6 col-sm-12 col-xs-12 left events_banner_global">
+					<div class="box1 bos">
+						<div class="box-iner">				
+							<?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('events_banner_global')->toHtml(); ?>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-12 col-xs-12 right corporate_banner_global">
+					<div class="box1 bos">
+						<div class="box-iner">				
+							<?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('corporate_banner_global')->toHtml(); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="static1-top">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 left wedding_banner_global">
+					<div class="box1 bos">
+						<div class="box-iner">
+							<?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('wedding_banner_global')->toHtml(); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	
+	<div class="home-conten">	
+		<div class="subscribe-new">
+			<div class="container-inner">	
+				<div class="subscribe1">
+					<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate('Magento_Newsletter::subscribe.phtml')->toHtml();?>
+				</div>
+			</div>	
+		</div>
+		<div class="intagaram">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\InstagramGallery\Block\InstagramGallery')->setTemplate('Plazathemes_InstagramGallery::plazathemes/instagramgallery/default.phtml')->toHtml();?>
+		</div>
+	</div>
+</div>
+

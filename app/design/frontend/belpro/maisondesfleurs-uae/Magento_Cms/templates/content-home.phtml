@@ -1,0 +1,55 @@
+<div class="main-container col2-left-layout">	
+	<div class="home-conten home-content">
+		<?php echo $this->getLayout()
+			->createBlock('Magento\Cms\Block\Block')
+			->setBlockId('main_banner_uae')
+			->toHtml();
+		?>
+	
+		<?php echo $block->getLayout()
+			->createBlock('Plazathemes\Producttab\Block\Producttab')
+			->setTemplate('Plazathemes_Producttab::producttab.phtml')
+			->toHtml();
+		?>
+	</div>
+
+	<div class="home-conten home-content">
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-xs-12 left-home">
+				<?php echo $this->getLayout()
+					->createBlock('Magento\Cms\Block\Block')
+					->setBlockId('new_trendy_products_uae')
+					->toHtml(); ?>
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12 right-home">
+				<?php echo $block->getLayout()
+					->createBlock('Plazathemes\Featureproductslider\Block\Featureproductslider')
+					->setTemplate('Plazathemes_Featureproductslider::featureproductslider.phtml')
+					->toHtml();
+				?>
+			</div>
+		</div>
+	</div>	
+	
+	<div class="home-conten">	
+		<div class="subscribe-new">
+			<div class="container-inner">	
+				<div class="subscribe1">
+					<?php echo $block->getLayout()
+						->createBlock('Magento\Newsletter\Block\Subscribe')
+						->setTemplate('Magento_Newsletter::subscribe.phtml')
+						->toHtml();
+					?>
+				</div>
+			</div>	
+		</div>
+		<div class="intagaram">
+			<?php echo $block->getLayout()
+				->createBlock('Plazathemes\InstagramGallery\Block\InstagramGallery')
+				->setTemplate('Plazathemes_InstagramGallery::plazathemes/instagramgallery/default.phtml')
+				->toHtml();
+			?>
+		</div>
+	</div>
+</div>
+

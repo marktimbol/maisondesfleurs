@@ -1,0 +1,24 @@
+.catalog-category-view .sidebar,
+.catalog-product-view .sidebar {
+	.block-title {
+		font-size: 14px;
+		background: #bc9051;
+		strong {
+			font-size: 14px;
+			color: #fff !important;
+		}
+		.counter {
+			color: #fff;
+		}
+	}
+}
+
+.catalog-category-view .pt-recentproduct-container .item,
+.catalog-product-view .pt-recentproduct-container .item {
+	button:before {
+	    content: ' ';
+	}
+	.item-inner .image-container {
+		border: 1px solid #ddd;
+	}
+}

@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/vendor/magento/module-backend/view/adminhtml/web/js/media-uploader.js

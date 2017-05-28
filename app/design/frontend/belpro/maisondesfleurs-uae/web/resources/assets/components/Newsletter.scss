@@ -1,0 +1,20 @@
+#newsletter_pop_up {
+    border: 10px solid $primary;
+    .title {
+		margin-top: 0px;
+    }
+    .b-close {
+		top: -35px;
+		right: -10px;    	
+    }
+}
+
+.form-subscribe .control {
+	input {
+		text-align: center;
+	}
+	button {
+		height: 40px;
+		font-size: 13px;
+	}
+}

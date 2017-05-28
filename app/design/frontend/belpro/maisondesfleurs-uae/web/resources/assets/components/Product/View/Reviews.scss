@@ -1,0 +1,23 @@
+@import './ReviewSummary';
+
+.product.info.detailed {
+	.review-list {
+		.block-title {
+			background: none !important;
+			strong {
+				color: #444 !important;
+			}
+		}
+	}
+	.review-add .review-field-ratings {
+		legend.label {
+		    font-size: 16px;
+		    font-weight: normal;
+		    padding-bottom: 10px;
+		}
+	}
+
+	.review-control-vote label:before {
+		color: $primary;
+	}
+}

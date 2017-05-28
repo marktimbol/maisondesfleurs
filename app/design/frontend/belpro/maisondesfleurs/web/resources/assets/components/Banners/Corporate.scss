@@ -1,0 +1,25 @@
+.corporate_banner_global {
+	.text {
+		div.h4 {
+			margin-bottom: 30px;
+		}
+		// extra text
+		h4 {
+			display: none;
+		}
+	}
+	p {
+		margin: 0;
+	}		
+}
+
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 320px) 
+	and (max-device-width: 480px)
+	and (-webkit-min-device-pixel-ratio: 2)
+{
+	.corporate_banner_global .text div.h4 {
+		margin-bottom: 10px;
+	}
+}

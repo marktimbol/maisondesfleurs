@@ -1,0 +1,178 @@
+
+.catalog-product-view .product-info-main .page-title {
+    font-size: 22px;
+    font-weight: 400;
+    &:hover {
+    	color: inherit;
+    }
+}
+
+.catalog-product-view .product-info-main .product-info-price .price-box .price-container .price-wrapper .price {
+	font-weight: 400;
+	color: $primary;
+}
+
+.catalog-product-view .product-info-price {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.catalog-product-view .product-info-main .product-add-form .box-tocart .field.qty .label {
+	text-transform: uppercase;
+}
+
+.catalog-product-view .product-info-main .product-add-form .box-tocart .field.qty .control .input-text.qty {
+	width: 105px;
+}
+
+.catalog-product-view .product-info-main .product-add-form .box-tocart .actions button {
+	border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:before {
+	    width: 22px;
+	    height: 17px;
+	    content: "";
+	    // display: inline-block;
+	    margin-right: 5px;
+	    background-image: url('http://dev.belpro.net/maisondesfleurs/pub/media/wysiwyg/box-white.svg');	
+    }
+}
+
+.catalog-product-view .product-add-form {
+	.product-options-wrapper {
+		.swatch-opt {
+			margin-bottom: 20px;
+			.swatch-attribute {			
+				.swatch-attribute-label {
+					color: #333333;
+				    text-transform: uppercase;
+				}
+				.swatch-attribute-selected-option {
+					color: #999999;
+				}
+			}
+
+			.swatch-option {
+				height: 30px !important;
+			}
+		}
+	}
+
+	.product-options-bottom {
+		display: flex;
+		.box-tocart {
+			width: 100%;
+			margin-right: 5px;
+			vertical-align: top;
+			.fieldset {
+				display: flex;
+				flex-direction: column;
+				.actions {
+					width: 100%;
+					display: flex;
+					align-items: center;	
+					.tocart {
+						margin-left: 0;
+						margin-right: 5px;
+					    font-weight: normal;
+					    text-transform: none;						
+					}				
+				}
+			}
+		}
+		.product-addto-links {
+			margin: 0;
+		}
+	}
+}
+
+.catalog-product-view .product-info-main .product-info-stock-sku {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.catalog-product-view .product-add-form .swatch-attribute.color {
+	.swatch-attribute-selected-option {
+		padding-right: 17px;
+	}
+}
+
+.catalog-product-view .product.attribute.overview {
+	p {
+		color: #777;
+	}
+}
+
+.catalog-product-view .product-info-main .product-options-bottom .product-addto-links .towishlist,
+.catalog-product-view .product-info-main .product-options-bottom .product-addto-links .tocompare {
+	background-color: #e3e3e3;
+	border: 1px solid #e3e3e3;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Arimo',sans-serif;
+	font-weight: 700;
+	padding: 13px 15px;
+	font-size: 1.4rem;
+	box-sizing: border-box;
+	vertical-align: middle;
+	text-transform: uppercase;
+	transition: all .3s ease-out;
+	border-radius: 0;
+	height: 40px;
+	padding: 0 15px;
+	line-height: 40px;
+}
+
+.product-addto-links {
+	a.towishlist, a.tocompare {
+	    background: none !important;
+	    border: 1px solid #8f8f8f !important;
+	    &:hover {
+	    	color: $primary !important;
+	    }
+	}
+}
+
+.catalog-product-view .product-info-main .product-available-in {
+	display: flex;
+	border-bottom: 1px solid #ddd;
+	p {
+	    color: #333333;		
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	ul {
+		display: flex;
+	    list-style: none;
+	    li {
+	    	margin-right: 15px;
+	    }		
+	}
+}
+
+.catalog-product-view .product-info-main .social-buttons-container {
+	display: flex;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;	
+	.social-buttons--label {
+		margin-right: 50px;
+		p {
+			color: #333333;
+			font-weight: bold;
+			margin-bottom: 0;
+			text-transform: uppercase;			
+		}
+	}
+
+	.social-buttons {
+		display: flex;
+		width: 220px;
+		justify-content: space-between;
+	}	
+}

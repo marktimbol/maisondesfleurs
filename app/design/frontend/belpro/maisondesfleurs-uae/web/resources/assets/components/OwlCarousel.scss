@@ -1,0 +1,18 @@
+.owl-theme .owl-controls .owl-page span {
+	background: none !important;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #e5e5e5 !important;
+}
+
+.producttab_inner .owl-pagination div span {
+    height: 5px !important;
+    margin-top: -16px !important;
+}
+
+.producttab_inner .owl-pagination:before,
+.producttab_inner .owl-pagination:after {
+	top: 1px !important;
+}

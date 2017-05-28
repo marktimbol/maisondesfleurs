@@ -1,0 +1,54 @@
+.fix-nav-ozmegamenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row !important;
+    background: #000 !important;
+    padding-bottom: 15px !important;
+    .logo-menu-container {
+        display: flex;
+        align-items: center;        
+    }
+    .switchers-container {
+        display: flex;
+        padding-top: 15px;
+        .col-md-6.first {
+            display: none;
+        }
+        .col-md-6.last {
+            width: 100%;
+        }
+        .search-switcher {
+            display: none;
+        }
+        ul.Top__links li a, ul.Top__links li a i {
+            color: #fff;
+        }
+        .minicart-wrapper .action.showcart:before {
+            background-image: url('http://dev.belpro.net/maisondesfleurs/pub/media/wysiwyg/box-white.svg');
+        }
+    }
+
+    .logo-home {
+        margin-top: 0;
+        img {
+            width: 40%;
+        }
+    }
+
+    .nav-ozmegamenu-inner {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pt_custommenu {
+        margin: 0;
+        width: auto;        
+        margin-bottom: 0;
+        display: block !important;
+        .parentMenu a {
+            color: #fff !important;
+        }
+    }
+}

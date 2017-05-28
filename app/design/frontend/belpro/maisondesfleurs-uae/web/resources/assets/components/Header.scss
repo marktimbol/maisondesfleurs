@@ -1,0 +1,142 @@
+.header-container {
+	background: #fff;
+	.logo-home {
+	    text-align: center;	
+	    margin-top: -30px;
+	}
+
+	.logo img {
+		width: 11%;
+	}
+
+	.top-bar {
+	    padding: 0;
+	    display: flex;
+	    flex-direction: column-reverse;	    
+	}
+
+	.shop_online {
+	    border-radius: 0;
+	    font-weight: bold;
+	    margin-top: 20px;
+		background: $primary;
+	    text-transform: uppercase;
+	    &:hover, &:focus, &:active {
+	    	color: #fff;
+	    }
+	}
+
+	.website-switcher {
+		float: left !important;
+		text-align: left;
+		padding-top: 0;
+	    margin-right: 10px;		
+
+		.switcher-dropdown {
+			left: 0;
+			width: 200px;
+			&:before, &:after {
+				left: 0;
+			}
+			a {
+				text-align: left;
+			}
+		}	
+	}
+
+	.switcher-currency {
+	    top: -1px;
+		padding-top: 0;
+		float: left !important;
+	}
+
+	.switcher-language {
+		float: left !important;
+		padding-top: 0;
+	}
+
+	// Box icon
+	.card {
+		float: none !important;
+	}
+
+	.minicart-wrapper {
+		display: flex;
+		margin-left: 0px;
+		margin-right: 0;
+		width: inherit;
+		float: none !important;
+		.action.showcart.active:before {
+			content: "";
+		}
+	}
+
+	.search-switcher:before {
+		display: none;
+	}
+
+	#search_mini_form {
+	    opacity: 1;
+	    z-index: 1;
+	    visibility: visible;
+
+	    padding: 0;
+	    top: 33px !important;
+	    border: 0 !important;
+	    background: transparent;
+	    box-shadow: none !important;
+
+	    .search {
+	    	height: 34px;
+	    	border-color: $primary;
+	    	input {
+	    		color: $primary;
+	    	}
+	    	button:before {
+	    		font-size: 24px;
+	    		color: $primary;
+	    		line-height: 16px;
+	    	}
+	    }
+	}	
+}
+
+ul.Top__links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;	
+    li {
+    	margin: 0 5px;
+    	position: relative;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	&:after {
+		    right: 0;		
+    		width: 1px;
+    		height: 50%;
+    		content: "";
+    		background: #888;
+    		position: absolute;
+    	}
+    	&:last-child {
+    		&:after {
+    			width: 0;
+    		}
+    	}
+		a {
+			color: #000;
+		    font-size: 12px;			
+			padding-right: 10px;
+		    text-transform: uppercase;
+		    font-family: Montserrat,Arial,Helvetica,sans-serif;
+			i {
+			    color: #333;				
+			    font-size: 16px;
+			}
+		}
+    }
+}
+
+@import './Nav';
+@import './NavSwitcher';
