@@ -1,0 +1,19 @@
+.account {
+	font-family: Montserrat, 'Arimo',sans-serif;
+	.page-main {
+		margin-top: 40px;
+	}
+	.page-title {
+		font-weight: bold;
+	}
+	.column.main {
+		.block-title {
+			strong {
+				font-family: Montserrat, 'Arimo',sans-serif;
+			}
+			a {
+				color: #fff;
+			}
+		}
+	}
+}

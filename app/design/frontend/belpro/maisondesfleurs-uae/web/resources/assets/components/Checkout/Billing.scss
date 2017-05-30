@@ -1,0 +1,19 @@
+.block-billing {
+	.box-billing-method {
+		.box-title {
+		    padding-bottom: 15px;
+		    margin-bottom: 30px !important;
+		}		
+		.item-title {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+			.radio {
+				margin: 0 15px 0 0;
+			}
+			label {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

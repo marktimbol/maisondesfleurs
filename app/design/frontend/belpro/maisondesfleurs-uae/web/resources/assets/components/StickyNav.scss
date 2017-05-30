@@ -6,8 +6,16 @@
     background: #000 !important;
     padding-bottom: 15px !important;
     .logo-menu-container {
+        flex: 1;
         display: flex;
-        align-items: center;        
+        align-items: center;  
+        .row {
+            flex: 1;
+        }
+        .pt_custommenu {
+            width: 100%;
+        }
+        .pt_menu { min-width: inherit; }
     }
     .switchers-container {
         display: flex;

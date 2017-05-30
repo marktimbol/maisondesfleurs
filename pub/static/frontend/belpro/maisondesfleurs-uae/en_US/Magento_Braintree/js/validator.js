@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/vendor/magento/module-braintree/view/base/web/js/validator.js

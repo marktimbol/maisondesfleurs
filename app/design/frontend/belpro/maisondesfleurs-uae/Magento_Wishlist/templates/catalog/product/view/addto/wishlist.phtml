@@ -10,6 +10,7 @@
 ?>
 <?php if ($block->isWishListAllowed()) : ?>
     <a href="#"
+    	title="Add to Wishlist"
        class="action towishlist"
        data-post='<?php /* @escapeNotVerified */ echo $block->getWishlistParams(); ?>'
        data-action="add-to-wishlist"><span><i class="fa fa-heart-o"></i></span></a>

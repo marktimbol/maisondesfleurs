@@ -5,15 +5,25 @@
     justify-content: center;
     margin: -20px 0px 10px;
 
+    .pt_menu {
+        min-width: 150px;
+    }
+
     .parentMenu a {
         color: #000 !important;
+        font-weight: bold !important;
     }
 
     // Current Menu
     .act .parentMenu a {
         color: $primary !important;
     }
+
+    .menu-separator {
+        width: 200px;
+    }
 }
+
 
 .pt_custommenu div.pt_menu .parentMenu a,
 .pt_custommenu div.pt_menu .parentMenu span.block-title {

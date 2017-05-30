@@ -1,0 +1,16 @@
+.opc-block-summary {
+	.table-totals .totals .label {
+		padding-left: 0;
+	}
+	.minicart-items {
+		.details-qty .label {
+			padding-left: 0;
+		}
+		.item-options {
+			display: flex;
+			.label {
+				padding-left: 0;
+			}		
+		}
+	}
+}

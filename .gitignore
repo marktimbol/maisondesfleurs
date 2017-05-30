@@ -21,5 +21,3 @@ atlassian*
 /lib/internal/flex/varien/.settings
 /node_modules
 /.grunt
-
-/app/etc/env.php

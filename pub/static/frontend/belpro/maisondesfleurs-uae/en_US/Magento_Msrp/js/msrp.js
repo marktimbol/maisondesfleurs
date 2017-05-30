@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/vendor/magento/module-msrp/view/base/web/js/msrp.js

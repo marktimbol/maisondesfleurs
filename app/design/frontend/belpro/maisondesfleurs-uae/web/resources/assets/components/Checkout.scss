@@ -1,3 +1,18 @@
+
+.checkout-index-index {
+	.logo-menu-container {
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+
+	.fix-nav-ozmegamenu {
+		.logo-menu-container {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
+
 .checkout-cart-index, .checkout-onepage-success {
 	.page-main {
 		padding: 40px 0px;
@@ -21,3 +36,7 @@
 .opc-progress-bar-item._active>span:before {
 	background: #BC9A6A;
 }
+
+@import './Checkout/Payment';
+@import './Checkout/Billing';
+@import './Checkout/Summary';

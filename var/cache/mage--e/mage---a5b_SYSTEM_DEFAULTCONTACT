@@ -1,2 +1,2 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986450;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_CONFIG_SCOPES,a5b_CONFIG,a5b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496081100;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_CONFIG_SCOPES,a5b_CONFIG,a5b_MAGE";}
 a:2:{s:7:"contact";a:1:{s:7:"enabled";s:1:"1";}s:5:"email";a:3:{s:15:"recipient_email";s:24:"mail@maisondesfleurs.com";s:21:"sender_email_identity";s:7:"general";s:14:"email_template";s:28:"contact_email_email_template";}}

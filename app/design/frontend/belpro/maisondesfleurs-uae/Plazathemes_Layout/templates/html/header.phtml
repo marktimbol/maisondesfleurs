@@ -45,7 +45,11 @@
 						<li>
 							<div class="card"><?php echo $this->getChildHtml("minicart");?></div>
 						</li>
-						<li><a href="/maisondesfleurs/customer/account/login/">Sign In</a></li>
+						<?php if( $this->helper('Magento\Checkout\Helper\Cart')->getCart()->getCustomerSession()->isLoggedIn() ) { ?>
+							<li><a href="/maisondesfleurs/customer/account">My Account</a></li>
+						<?php } else { ?>
+							<li><a href="/maisondesfleurs/customer/account/login/">Sign In</a></li>
+						<?php } ?>
 						<li><a href="/maisondesfleurs/checkout/">Checkout</a></li>
 					</ul>
 				</div>	

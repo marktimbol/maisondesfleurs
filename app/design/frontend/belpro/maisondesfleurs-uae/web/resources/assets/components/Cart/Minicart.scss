@@ -1,0 +1,20 @@
+.minicart-wrapper {
+	.minicart-items {
+		.product.item {
+			div.product:first-child {
+				display: flex;
+				.product-item-details {
+					dl.product.options.list {
+						display: flex;
+					}
+					.label {
+						padding-left: 0;
+					}
+					.label, .values {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

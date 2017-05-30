@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/vendor/magento/module-braintree/view/frontend/web/js/view/payment/validator-handler.js

@@ -2,6 +2,9 @@
 	.product-info-main {
 		.product-reviews-summary {
 			margin-bottom: 10px;
+			&.empty {
+				display: none !important;
+			}
 		}
 		.reviews-actions {
 			display: none !important;

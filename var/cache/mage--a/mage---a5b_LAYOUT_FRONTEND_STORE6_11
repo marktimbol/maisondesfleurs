@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986463;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496081113;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_product_view" layout="2columns-left"><body>
    <referenceContainer name="content">
@@ -6158,7 +6158,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986463;s:6:"expire";i:9999999999;s:4:"t
 </body>
 </handle><handle id="default" layout="1column"><body>
    <referenceContainer name="page.wrapper">
-      <block class="Plazathemes\Layout\Block\Layout" name="custom_header" template="html/header.phtml" before="-">
+      <block class="Plazathemes\Layout\Block\Layout" name="custom_header" template="html/header.phtml" before="-" cachable="false">
          <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
             <arguments>
                <argument name="css_class" xsi:type="string">header links</argument>
@@ -6253,6 +6253,18 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986463;s:6:"expire";i:9999999999;s:4:"t
             </arguments>
          </block>
       </container>
+   </referenceContainer>
+</body>
+</handle><handle id="checkout_index_index_ooops" layout="1column"><update handle="checkout_cart_item_renderers"/>
+<body>
+   <referenceContainer name="content">
+      <referenceBlock name="checkout.cart.coupon" remove="true"/>
+   </referenceContainer>
+</body>
+</handle><handle id="wishlist_index_index"><update handle="customer_account"/>
+<body>
+   <referenceContainer name="content">
+      <referenceBlock name="customer.wishlist.item.comment" remove="true"/>
    </referenceContainer>
 </body>
 </handle><handle id="default" layout="2columns-left"><head>

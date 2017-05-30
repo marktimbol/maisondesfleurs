@@ -1,0 +1,14 @@
+.sidebar {
+	.block-wishlist {
+		.product-items {
+			.product-item-info {
+			    display: flex;
+			    padding-bottom: 20px;
+			    border-bottom: 1px solid #ddd;				
+			}
+		}
+		.product-item-actions:before {
+			border: none;
+		}
+	}
+}

@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986463;s:6:"expire";i:9999999999;s:4:"tags";s:119:"a5b_DEFAULT,a5b_CMS_INDEX_INDEX,a5b_CMS_PAGE_VIEW,a5b_CMS_INDEX_INDEX_ID_HOME_UAE,a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496081117;s:6:"expire";i:9999999999;s:4:"tags";s:119:"a5b_DEFAULT,a5b_CMS_INDEX_INDEX,a5b_CMS_PAGE_VIEW,a5b_CMS_INDEX_INDEX_ID_HOME_UAE,a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
 <body>
    <referenceContainer name="header.panel">
       <block class="Magento\Directory\Block\Currency" name="currency" before="store_language" template="currency.phtml"/>
@@ -725,7 +725,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1495986463;s:6:"expire";i:9999999999;s:4:"t
 </body>
 <body>
    <referenceContainer name="page.wrapper">
-      <block class="Plazathemes\Layout\Block\Layout" name="custom_header" template="html/header.phtml" before="-">
+      <block class="Plazathemes\Layout\Block\Layout" name="custom_header" template="html/header.phtml" before="-" cachable="false">
          <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
             <arguments>
                <argument name="css_class" xsi:type="string">header links</argument>

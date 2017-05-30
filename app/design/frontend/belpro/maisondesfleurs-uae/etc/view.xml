@@ -186,8 +186,8 @@
                 <height>113</height>
             </image>
             <image id="wishlist_thumbnail" type="small_image">
-                <width>228</width>
-                <height>228</height>
+                <width>341</width>
+                <height>380</height>
             </image>
         </images>
     </media>
