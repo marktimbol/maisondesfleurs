@@ -17,16 +17,8 @@
         <?php if ($block->shouldRenderQuantity()): ?>
         <div class="field qty">
             <label class="label" for="qty"><span><?php /* @escapeNotVerified */ echo __('Qty') ?></span></label>
-            <div class="control">
-                <input type="number"
-                       name="qty"
-                       id="qty"
-                       maxlength="12"
-                       value="<?php /* @escapeNotVerified */ echo $block->getProductDefaultQty() * 1 ?>"
-                       title="<?php /* @escapeNotVerified */ echo __('Qty') ?>" class="input-text qty"
-                       data-validate="<?php echo $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"
-                       />
-            </div>
+
+            <div id="QuantityDecrementIncrement"></div>
         </div>
         <?php endif; ?>
         <div class="actions">
@@ -60,4 +52,7 @@
         }
     }
 </script>
+
 <?php endif; ?>
+
+<script type="text/javascript" src="http://127.0.0.1:8888/maisondesfleurs/pub/static/version1495536383/frontend/belpro/maisondesfleurs-uae/en_US/js/QuantityDecrementIncrement.js"></script>

@@ -18,7 +18,7 @@
 	           <resource id="Magento_Backend::stores">
 	                <resource id="Magento_Backend::stores_settings">
 	                    <resource id="Magento_Config::config">
-	                        <resource id="plazathemes_themeoptions::config" title="Themeoptions" />
+	                        <resource id="Plazathemes_Themeoptions::config" title="Themeoptions" />
 	                    </resource>
 	                </resource>
 	            </resource>

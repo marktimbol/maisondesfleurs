@@ -25,7 +25,7 @@ class LockerProcess implements LockerProcessInterface
     /**
      * Max execution (locking) time for process (in seconds)
      */
-    const MAX_LOCK_TIME = 30;
+    const MAX_LOCK_TIME = 600;
 
     /**
      * @var Filesystem

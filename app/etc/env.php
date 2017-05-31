@@ -20,9 +20,9 @@ return array (
       'default' => 
       array (
         'host' => 'localhost',
-        'dbname' => 'fbgabudh_maisondesfleurs',
-        'username' => 'fbgabudh_mdf',
-        'password' => '1HuoscsHQ#H3',
+        'dbname' => 'maisondesfleurs',
+        'username' => 'root',
+        'password' => 'root',
         'active' => '1',
       ),
     ),

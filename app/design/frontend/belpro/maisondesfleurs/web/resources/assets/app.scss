@@ -1,5 +1,5 @@
-// $primary: #bc9051;
-$primary: #bc9b6a;
+// $primary: #bc9b6a;
+$primary: #bc9051;
 
 @import 'components/Header';
 @import 'components/Banners';
@@ -17,6 +17,13 @@ h1, h2, h3, h4, h5, h6,
     font-family: Montserrat, 'Arimo',sans-serif;
 }
 
+.gray-bg {
+	padding: 20px;
+	background: #f3f4f6;
+}
+
+@import 'components/Page';
+@import 'components/Button';
 @import 'components/Sprites';
 @import 'components/Newsletter';
 @import 'components/Checkout';

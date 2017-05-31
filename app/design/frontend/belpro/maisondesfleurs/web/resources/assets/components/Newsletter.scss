@@ -1,5 +1,16 @@
-#newsletter_pop_up .title {
-	margin-top: 30px;
+#newsletter_pop_up {
+    border: 10px solid $primary;
+    .title {
+		display: none;
+    }
+    .b-close {
+		top: -35px;
+		right: -10px;    	
+    }
+
+    .content #newsletter-validate-detail1 .label {
+    	margin: 0 0 15px 0;
+    }
 }
 
 .form-subscribe .control {

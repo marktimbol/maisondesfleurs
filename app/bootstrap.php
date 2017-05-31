@@ -7,9 +7,9 @@
 /**
  * Environment initialization
  */
-error_reporting(E_ALL);
-// error_reporting(E_ALL ^ E_DEPRECATED);
-#ini_set('display_errors', 1);
+// error_reporting(E_ALL);
+error_reporting(E_ALL ^ E_DEPRECATED);
+// ini_set('display_errors', 0);
 
 /* PHP version validation */
 if (!defined('PHP_VERSION_ID') || !(PHP_VERSION_ID >= 50005 && PHP_VERSION_ID < 50700 || PHP_VERSION_ID === 70002 || PHP_VERSION_ID === 70004 || PHP_VERSION_ID >= 70006)) {

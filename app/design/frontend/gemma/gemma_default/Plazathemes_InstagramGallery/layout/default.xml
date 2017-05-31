@@ -6,8 +6,7 @@
 	</head>
 	<body>
 		<referenceContainer name="content">
-			<!-- <block class="Plazathemes\InstagramGallery\Block\InstagramGallery" name="instagramgallery" template="Plazathemes_InstagramGallery::plazathemes/instagramgallery/default.phtml"> -->
-			</block>
+
 		</referenceContainer>
 	</body>
 </page>

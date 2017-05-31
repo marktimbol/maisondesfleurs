@@ -14,5 +14,7 @@
 		 <referenceContainer name="div.sidebar.main">
 			<block class="Plazathemes\Hozmegamenu\Block\Menu" name="vertical_megamenu" before="-" template="verticalmegamenu.phtml"  display="false"/>	   
 		 </referenceContainer>
+
+		<move element="weltpixel.quickview" destination="product.info.addtocart.additional" />
     </body>
 </page>

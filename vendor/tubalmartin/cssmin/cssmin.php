@@ -44,7 +44,7 @@ class CSSmin
     {
         // Set suggested PHP limits
         $this->memory_limit = 128 * 1048576; // 128MB in bytes
-        $this->max_execution_time = 60; // 1 min
+        $this->max_execution_time = 600; // 1 min
         $this->pcre_backtrack_limit = 1000 * 1000;
         $this->pcre_recursion_limit =  500 * 1000;
 

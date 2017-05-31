@@ -54,7 +54,23 @@
 	}    
 }
 
-@import './Banners/Main';
+.static1-top {
+	.banner2_global .box1 .box-iner .text {
+		h4 {
+			font-weight: normal !important;
+		}
+		h4, h3 {
+			color: $primary !important;
+		}
+
+		.banner_button {
+		    color: $primary;
+		    background: none;
+		    border: 1px solid $primary;
+		}
+	}
+}
+
 @import './Banners/Events';
 @import './Banners/Corporate';
 @import './Banners/Wedding';

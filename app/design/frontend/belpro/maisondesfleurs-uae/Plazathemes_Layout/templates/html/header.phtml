@@ -24,10 +24,10 @@
 						</div>
 						<ul class="dropdown switcher-dropdown">
 							<li class="view-global_ar switcher-option">
-								<a href="#">Global</a></a>
+								<a href="http://belpro-digital.com/">Global</a></a>
 							</li>
 							<li class="view-global_ar switcher-option">
-								<a href="#">United Kingdom</a></a>
+								<a href="http://uk.belpro-digital.com/">United Kingdom</a></a>
 							</li>								
 						</ul>
 					</div>
@@ -41,16 +41,16 @@
 						<?php echo $this->getChildHtml("top.search"); ?>	
 					</div>	
 					<ul class="Top__links">
-						<li><a href="/maisondesfleurs/wishlist/" title="Wishlist"><i class="fa fa-heart-o"></i></a></li>
+						<li><a href="/wishlist/" title="Wishlist"><i class="fa fa-heart-o"></i></a></li>
 						<li>
 							<div class="card"><?php echo $this->getChildHtml("minicart");?></div>
 						</li>
 						<?php if( $this->helper('Magento\Checkout\Helper\Cart')->getCart()->getCustomerSession()->isLoggedIn() ) { ?>
-							<li><a href="/maisondesfleurs/customer/account">My Account</a></li>
+							<li><a href="/customer/account">My Account</a></li>
 						<?php } else { ?>
-							<li><a href="/maisondesfleurs/customer/account/login/">Sign In</a></li>
+							<li><a href="/customer/account/login/">Sign In</a></li>
 						<?php } ?>
-						<li><a href="/maisondesfleurs/checkout/">Checkout</a></li>
+						<li><a href="/checkout/">Checkout</a></li>
 					</ul>
 				</div>	
 				<div class="mobile-bar-icon">

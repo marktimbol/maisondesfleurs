@@ -1,0 +1,14 @@
+.btn-contact {
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    background: $primary;
+    text-transform: uppercase;
+    transition: all .3s ease-out;
+    &:hover {
+	    color: #fff;
+	    border: none;
+		background: #333;
+    }
+}

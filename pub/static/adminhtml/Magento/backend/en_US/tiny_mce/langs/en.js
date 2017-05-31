@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/lib/web/tiny_mce/langs/en.js

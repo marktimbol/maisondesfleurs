@@ -97,7 +97,12 @@ $_helper = $this->helper('Magento\Catalog\Helper\Output');
 									</div>
 								</div>
 								<div class="box-hover">
-									
+										<div data-role="add-to-links" class="add-to-links">
+											<?php $productUrl = '/weltpixel_quickview/catalog_product/view/id/'.$_product->getId(); ?> 
+											<a class="action action-quickview weltpixel-quick-view weltpixel_quickview_button_v1" data-quickview-url='<?=$productUrl?>' href="javascript:void(0);">
+												<span>Quick View</span>
+											</a>					
+										</div>					
 										<div class="actions-primary"<?php echo strpos($pos, $viewMode . '-primary') ? $position : ''; ?>>
 											<?php if ($_product->isSaleable()): ?>
 												<?php $postParams = $block->getAddToCartPostParams($_product); ?>
@@ -120,7 +125,7 @@ $_helper = $this->helper('Magento\Catalog\Helper\Output');
 											<?php endif; ?>
 										</div>
 										<div data-role="add-to-links" class="add-to-links"<?php echo strpos($pos, $viewMode . '-secondary') ? $position : ''; ?>>
-											<?php if ($this->helper('Magento\Wishlist\Helper\Data')->isAllow()): ?>
+											<?php if ($this->helper('Magento\Wishlist\Helper\Data')->isAllow()): ?>		
 												<a href="#"
 												   class="action towishlist"
 												   title="<?php echo $block->escapeHtml(__('WishList')); ?>"
