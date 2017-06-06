@@ -1,8 +1,9 @@
 
 #newsletter_pop_up {
-	.title {
-		margin-top: 30px;
-	}
+    border: 10px solid $primary;
+    .title {
+		display: none;
+    }	
 	img {
 		width: 30%;
 	}

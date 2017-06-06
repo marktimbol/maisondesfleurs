@@ -5,26 +5,36 @@
     justify-content: center;
     margin: -20px 0px 10px;
 
+    .pt_menu {
+        min-width: 150px;
+    }
+
     .parentMenu a {
-		color: #000 !important;
+        color: #000 !important;
+        font-weight: bold !important;
     }
 
     // Current Menu
     .act .parentMenu a {
-    	color: $primary !important;
+        color: $primary !important;
+    }
+
+    .menu-separator {
+        width: 200px;
     }
 }
 
+
 .pt_custommenu div.pt_menu .parentMenu a,
 .pt_custommenu div.pt_menu .parentMenu span.block-title {
-	font-weight: 300;
+    font-weight: 300;
 }
 
 .pt_custommenu div.pt_menu .parentMenu a:hover,
 .pt_custommenu div.pt_menu .parentMenu span.block-title:hover,
 .pt_custommenu div.pt_menu .parentMenu a.act,
 .pt_custommenu div.pt_menu .parentMenu span.block-title.act {
-	color: $primary !important;
+    color: $primary !important;
 }
 
 // Dropdown
@@ -42,27 +52,9 @@
     font-size: 12px;
 }
 
-// Sticky Nav
-.fix-nav-ozmegamenu {
-	background: #000 !important;
-    padding-bottom: 0px !important;
-    
-    // Display only the menus on the sticky header
-    .switchers-container, .logo-home {
-        display: none;
-    }
-
-    .pt_custommenu {
-        margin-bottom: 0;
-        .parentMenu a {
-            color: #fff !important;
-        }
-    }
-}
-
 // Hamburger icon
 .mobile-bar-icon:before {
-	color: $primary;
+    color: $primary;
 }
 
 @media (min-width: 1200px) {
@@ -82,3 +74,5 @@
         display: none !important;
     }
 }
+
+@import './StickyNav';

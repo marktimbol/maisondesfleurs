@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/maisondesfleurs/app/design/frontend/belpro/maisondesfleurs-uk/Plazathemes_InstagramGallery/web/plazathemes/instagramgallery/js/jquery.fancybox.js

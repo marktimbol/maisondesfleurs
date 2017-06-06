@@ -10,58 +10,48 @@
 ?>
 	<nav class="nav-container visible-lg visible-md">
 		<div id="pt_custommenu" class="pt_custommenu">
-		<?php
-			$showhome = $block->getConfig('is_home');	
-			$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-			$request = $objectManager->get('Magento\Framework\App\Action\Context')->getRequest();
-			//var_dump($request); die('111');
-			$active = '';
-			if ($request->getFullActionName() == 'cms_index_index') {
-				$active = ' act';
-			}
-			$urlInterface = \Magento\Framework\App\ObjectManager::getInstance()->get('Magento\Framework\UrlInterface');
-
-			$base_url = $urlInterface->getBaseUrl();
-			if ($showhome) {
-				$id     = "_home";
-				$html[] = '<div id="pt_menu' . $id . '" class="pt_menu' . $active . '">';
-				$html[] = '<div class="parentMenu">';
-				$html[] = '<a href="'.$base_url.'">';
-				$html[] = '<span>'.__('Home').'</span>';
-				$html[] = '</a>';
-				$html[] = '</div>';
-				$html[] = '</div>';
-				$html = implode("\n", $html);
-				// echo $html;
-			}
-
-			if( count($itemsActive) ): 
-				$item = 0;
-				$id = null; 
-				$label = null; 
-
-				foreach ($itemsActive as $itemActive) {
-					$item++;
-					$item1 =  explode( '_', $itemActive ) ;
-					$label = $item1[0]; 
-					$id = $item1[1];
-
-					switch ($label) {
-						case "cms":							
-							echo $block->CmsLink($id,'desktop'); 
-							break;
-						case "block":			
-							echo $block->CustomLink($id,'desktop');
-							break;
-						case "category":									
-							echo $block->drawCustomMenuItem($id,0,false,$item);				
-							break;
-					}																					
-				}
-			endif ?>
+			<div id="pt_menu14" class="pt_menu readmore nav-1 pt_menu_no_child">
+				<div class="parentMenu" style="">
+					<a href="/the-maison" class="pt_cate act">
+						<span>The Maison</span>
+					</a>
+				</div>
+			</div>
+			<div id="pt_menu17" class="pt_menu readmore nav-2">
+				<div class="parentMenu" style="">
+					<a href="/services" class="pt_cate ">
+						<span>Services</span>
+					</a>
+				</div>
+				<div id="popup17" class="popup" style="display: none;">
+					<div class="block1" id="block117" style="width: 305px;">
+						<div class="column last col1">
+							<div class="itemMenu level1">
+								<a class="itemMenuName level1 nochild" href="/events">
+									<span>Events</span>
+								</a>
+								<a class="itemMenuName level1 nochild" href="/wedding">
+									<span>Weddings</span>
+								</a>
+								<a class="itemMenuName level1 nochild" href="/corporate">
+									<span>Corporate</span>
+								</a>
+							</div>
+						</div>
+						<div class="clearBoth"></div>
+					</div>
+				</div>
+			</div>
+			<div id="pt_menu22" class="pt_menu readmore nav-3 pt_menu_no_child">
+				<div class="parentMenu">
+					<a href="/collections" class="pt_cate ">
+						<span>Collections</span>
+					</a>
+				</div>
+			</div>
 
 			<div class="menu-separator"></div>
-			
+
 			<?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('pt_menu_links_home1')->toHtml();?>
 		</div>
 

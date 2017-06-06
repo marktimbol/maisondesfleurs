@@ -18,8 +18,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .gray-bg {
-	padding: 20px;
+	padding: 40px 60px;
 	background: #f3f4f6;
+	&.form--container {
+		margin: 20px 0px;
+	}
+}
+
+.white-bg {
+	background: #fff;
+	padding: 40px 60px;
+	&.form--container {
+		margin: 20px 0px;
+	}
 }
 
 @import 'components/Page';
