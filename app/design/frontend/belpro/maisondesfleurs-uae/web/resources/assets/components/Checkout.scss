@@ -1,5 +1,8 @@
 
 .checkout-index-index {
+	.page-header {
+		background: #000;
+	}
 	.logo-menu-container {
 		margin-top: 100px;
 		margin-bottom: 30px;
@@ -17,10 +20,6 @@
 	.page-main {
 		padding: 40px 0px;
 	}
-}
-
-.checkout-index-index .page-header {
-	background: #000;
 }
 
 .opc-progress-bar {

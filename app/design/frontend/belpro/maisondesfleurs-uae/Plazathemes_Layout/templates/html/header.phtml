@@ -45,12 +45,15 @@
 						<li>
 							<div class="card"><?php echo $this->getChildHtml("minicart");?></div>
 						</li>
+						<li><a href="/checkout/">Checkout</a></li>
 						<?php if( $this->helper('Magento\Checkout\Helper\Cart')->getCart()->getCustomerSession()->isLoggedIn() ) { ?>
-							<li><a href="/customer/account">My Account</a></li>
+							<li>
+								<?php echo $this->getChildHtml("top.links"); ?>
+							</li>						
 						<?php } else { ?>
 							<li><a href="/customer/account/login/">Sign In</a></li>
 						<?php } ?>
-						<li><a href="/checkout/">Checkout</a></li>
+						
 					</ul>
 				</div>	
 				<div class="mobile-bar-icon">

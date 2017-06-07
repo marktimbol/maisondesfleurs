@@ -23,16 +23,6 @@ DirectoryIndex index.php
     Options +FollowSymLinks
     RewriteEngine on
 
-    RewriteCond %{HTTP_HOST} .*ae.belpro-digital\.com [NC] 
-    RewriteRule .* - [E=MAGE_RUN_CODE:united_arab_emirates] 
-    RewriteCond %{HTTP_HOST} .*ae.belpro-digital\.com [NC] 
-    RewriteRule .* - [E=MAGE_RUN_TYPE:website]    
-
-    RewriteCond %{HTTP_HOST} .*uk.belpro-digital\.com [NC] 
-    RewriteRule .* - [E=MAGE_RUN_CODE:united_kingdom] 
-    RewriteCond %{HTTP_HOST} .*uk.belpro-digital\.com [NC] 
-    RewriteRule .* - [E=MAGE_RUN_TYPE:website]    
-
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
     RewriteCond %{REQUEST_METHOD} ^TRAC[EK]
     RewriteRule .* - [L,R=405]

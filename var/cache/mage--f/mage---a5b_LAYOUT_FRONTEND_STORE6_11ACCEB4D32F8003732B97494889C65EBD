@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496557661;s:6:"expire";i:9999999999;s:4:"tags";s:119:"a5b_DEFAULT,a5b_CMS_INDEX_INDEX,a5b_CMS_PAGE_VIEW,a5b_CMS_INDEX_INDEX_ID_HOME_UAE,a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496846335;s:6:"expire";i:9999999999;s:4:"tags";s:119:"a5b_DEFAULT,a5b_CMS_INDEX_INDEX,a5b_CMS_PAGE_VIEW,a5b_CMS_INDEX_INDEX_ID_HOME_UAE,a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
 <body>
    <referenceContainer name="header.panel">
       <block class="Magento\Directory\Block\Currency" name="currency" before="store_language" template="currency.phtml"/>
@@ -800,6 +800,11 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496557661;s:6:"expire";i:9999999999;s:4:"t
          </block>
       </container>
    </referenceContainer>
+</body>
+<body>
+   <referenceBlock name="top.links">
+      <referenceBlock name="wish-list-link" remove="true"/>
+   </referenceBlock>
 </body>
 <head>
 		   

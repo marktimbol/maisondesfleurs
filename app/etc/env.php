@@ -19,8 +19,8 @@ return array (
     array (
       'default' => 
       array (
-        'host' => 'localhost',
-        'dbname' => 'maisondesfleurs',
+        'host' => 'localhost:8889',
+        'dbname' => 'maisondesfleurs_dev',
         'username' => 'root',
         'password' => 'root',
         'active' => '1',
@@ -38,7 +38,7 @@ return array (
   'MAGE_MODE' => 'default',
   'cache_types' => 
   array (
-    'config' => 1,
+    'config' => 0,
     'layout' => 1,
     'block_html' => 1,
     'collections' => 1,
@@ -46,7 +46,7 @@ return array (
     'db_ddl' => 1,
     'eav' => 1,
     'customer_notification' => 1,
-    'full_page' => 1,
+    'full_page' => 0,
     'config_integration' => 1,
     'config_integration_api' => 1,
     'translate' => 1,

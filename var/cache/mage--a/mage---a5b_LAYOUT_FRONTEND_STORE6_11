@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496557661;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496846335;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_product_view" layout="2columns-left"><body>
    <referenceContainer name="content">
@@ -6019,8 +6019,8 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496557661;s:6:"expire";i:9999999999;s:4:"t
    </referenceBlock>
 </body>
 </handle><handle id="checkout_index_index" layout="checkout"><body>
-   <referenceContainer name="custom_header" remove="0"/>
-   <referenceContainer name="Brand" remove="0"/>
+   <referenceContainer name="custom_header" remove="1"/>
+   <referenceContainer name="Brand" remove="1"/>
 </body>
 </handle><handle id="default"><body>
    <referenceBlock name="head.components">
@@ -6264,11 +6264,20 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496557661;s:6:"expire";i:9999999999;s:4:"t
       </container>
    </referenceContainer>
 </body>
+</handle><handle id="checkout_cart_index" layout="1column"><update handle="checkout_cart_item_renderers"/>
+<body>
+   <referenceBlock name="checkout.cart.coupon" remove="true"/>
+</body>
 </handle><handle id="checkout_index_index_ooops" layout="1column"><update handle="checkout_cart_item_renderers"/>
 <body>
    <referenceContainer name="content">
       <referenceBlock name="checkout.cart.coupon" remove="true"/>
    </referenceContainer>
+</body>
+</handle><handle id="default"><body>
+   <referenceBlock name="top.links">
+      <referenceBlock name="wish-list-link" remove="true"/>
+   </referenceBlock>
 </body>
 </handle><handle id="wishlist_index_index"><update handle="customer_account"/>
 <body>

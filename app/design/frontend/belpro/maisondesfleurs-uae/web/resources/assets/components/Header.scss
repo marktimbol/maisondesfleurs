@@ -97,8 +97,23 @@
 	    		color: $primary;
 	    		line-height: 16px;
 	    	}
+	    	.nested {
+	    		display: none;
+	    	}
 	    }
-	}	
+	}
+
+	.searchsuite-autocomplete {
+		.product {
+			.qs-option-title a {
+				color: #333;
+				font-size: 14px;
+			}
+			.qs-option-price {
+				margin-top: 0;
+			}
+		}
+	}
 }
 
 ul.Top__links {
@@ -126,13 +141,27 @@ ul.Top__links {
     	}
 		a {
 			color: #000;
-		    font-size: 12px;			
-			padding-right: 10px;
-		    text-transform: uppercase;
+		    font-size: 12px !important;			
+			padding-right: 10px !important;
+		    text-transform: uppercase !important;
 		    font-family: Montserrat,Arial,Helvetica,sans-serif;
+		    &::before {
+		    	content: "" !important;
+		    }
 			i {
 			    color: #333;				
 			    font-size: 16px;
+			}
+		}
+
+		ul.header.links {
+			display: flex;
+			margin: 0 !important;
+			li {
+				display: flex;
+				a {
+					padding-left: 0;
+				}
 			}
 		}
     }
