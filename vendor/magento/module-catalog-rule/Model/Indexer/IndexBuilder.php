@@ -564,7 +564,7 @@ class IndexBuilder
             default:
                 $productPrice = 0;
         }
-
+        
         return $this->priceCurrency->round($productPrice);
     }
 

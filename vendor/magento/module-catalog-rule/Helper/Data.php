@@ -20,7 +20,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
      * @return float|int
      */
     public function calcPriceRule($actionOperator, $ruleAmount, $price)
-    {
+    {        
         $priceRule = 0;
         switch ($actionOperator) {
             case 'to_fixed':

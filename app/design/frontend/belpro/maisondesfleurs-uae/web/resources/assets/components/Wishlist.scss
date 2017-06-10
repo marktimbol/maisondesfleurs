@@ -1,3 +1,54 @@
+.products-grid {
+	&.wishlist {
+		.product-item {
+			border: 0;
+			padding: 15px !important;
+			.product-item-actions:before {
+				border: none;
+			}
+			.actions-primary {
+				.tocart {
+					text-transform: inherit;
+				}
+			}
+			.product-image-container {
+				border: 1px solid #adadad;
+			}
+		}
+	}
+}
+
+form.form-wishlist-items {
+	// Add all to cart
+	.actions-toolbar {
+	    margin-top: 30px;
+	    padding-top: 30px;
+	    border-top: 1px solid #ddd;
+	    .tocart {
+		    display: flex;
+		    align-items: center;
+	    	text-transform: inherit;
+		    background: white;
+		    border: 1px solid #adadad;	    	
+		    &:before {
+			    width: 22px;
+			    height: 17px;
+			    content: "";
+			    // display: inline-block;
+			    margin-right: 5px;
+			    background-image: url('http://belpro-digital.com/pub/media/wysiwyg/box.svg');	
+		    }
+		    &:hover {
+		    	background: $primary;
+		    	border-color: $primary;
+			    &:before {
+				    background-image: url('http://belpro-digital.com/pub/media/wysiwyg/box-white.svg');	
+			    }		    	
+		    }	
+	    }
+	}
+}
+
 .sidebar {
 	.block-wishlist {
 		.product-items {

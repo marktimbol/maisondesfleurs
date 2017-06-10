@@ -10,6 +10,8 @@
     <body>
         <referenceContainer name="content">
             <referenceBlock name="customer.wishlist.item.comment" remove="true" />
+            <referenceBlock name="customer.wishlist.button.update" remove="true" />
+            <referenceBlock name="customer.wishlist.button.share" remove="true" />
         </referenceContainer>
     </body>
 </page>

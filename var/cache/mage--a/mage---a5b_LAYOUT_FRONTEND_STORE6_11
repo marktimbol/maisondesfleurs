@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496846335;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1497078908;s:6:"expire";i:9999999999;s:4:"tags";s:37:"a5b_LAYOUT_GENERAL_CACHE_TAG,a5b_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_product_view" layout="2columns-left"><body>
    <referenceContainer name="content">
@@ -6283,6 +6283,8 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1496846335;s:6:"expire";i:9999999999;s:4:"t
 <body>
    <referenceContainer name="content">
       <referenceBlock name="customer.wishlist.item.comment" remove="true"/>
+      <referenceBlock name="customer.wishlist.button.update" remove="true"/>
+      <referenceBlock name="customer.wishlist.button.share" remove="true"/>
    </referenceContainer>
 </body>
 </handle><handle id="default" layout="2columns-left"><head>
