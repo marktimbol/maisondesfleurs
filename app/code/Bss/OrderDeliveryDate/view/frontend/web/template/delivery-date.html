@@ -10,7 +10,7 @@
     </div>
     <!-- ko if: bssDeliveryTimeSlot() -->
     <div class="delivery_time_slot">
-        <label for="delivery_time_slot" data-bind="i18n: 'Delivery Time Slot'"></label>
+        <label for="delivery_time_slot" data-bind="i18n: 'Delivery Time'"></label>
         <div class="delivery_time_slot">
             <select id="delivery_time_slot"
                     data-bind="options: listTimeSlot(),
@@ -20,14 +20,14 @@
                         optionsValue: function(item) {
                             return item
                         },
-                        optionsCaption: $t('Please select delivery time slot')">
+                        optionsCaption: $t('Please select delivery time')">
             </select>
         </div>
 
     </div>
     <!-- /ko -->
     <div class="shipping_arrival_comments">
-        <label for="shipping_arrival_comments" data-bind="i18n: 'Shipping Arrival Comment'"></label>
+        <label for="shipping_arrival_comments" data-bind="i18n: 'Delivery Comments'"></label>
         <div class="datetime-delivery">
             <textarea id="shipping_arrival_comments" class="shipping_arrival_comments"
                    type="text" size="17" name="shipping_arrival_comments"></textarea>

@@ -19,14 +19,14 @@
 		<h2><?php echo __('Featured products'); ?> </h2>
 		<div class="title-product">
 			<p><?php /* @escapeNotVerified */ echo __('Browse the collection of our best selling and top interesting products.'); ?></p>
-			<p><?php /* @escapeNotVerified */ echo __('TYou’ll definitely find what you are looking for.'); ?></p>
+			<p><?php /* @escapeNotVerified */ echo __('You’ll definitely find what you are looking for.'); ?></p>
 		</div>
 	</div>
 			
 	<div class="row">
 		<div class="feature-container">
 			<?php 
-			$newItems =  $block -> getFeaturedProduct()->getItems(); 
+			$newItems =  $block->getFeaturedProduct()->getItems(); 
 			$imageBlock =  $block->getLayout()->createBlock('Magento\Catalog\Block\Product\Image');
 			$image = 'new_products_content_widget_grid';
 			$type = 'widget-new-grid';

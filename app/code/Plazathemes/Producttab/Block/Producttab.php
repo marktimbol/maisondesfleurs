@@ -89,8 +89,9 @@ class Producttab extends \Magento\Catalog\Block\Product\AbstractProduct
 				}
 		
 		public function getFeaturedProduct() {
-			$id = $this->_storeManager->getStore()->getRootCategoryId();
-			$_category =  $this->_categoryFactory->create()->load($id);
+			// $id = $this->_storeManager->getStore()->getRootCategoryId();
+			$id = 27;
+			$_category =  $this->_categoryFactory->create()->load($id);			
 			$children_category = explode(",", $_category->getChildren());
 			$_category =  $this->_categoryFactory->create()->load($children_category[0]);
 			
@@ -157,9 +158,13 @@ class Producttab extends \Magento\Catalog\Block\Product\AbstractProduct
 		}
 
 		public function getNewProduct() {
-				$id = $this->_storeManager->getStore()->getRootCategoryId();
-				$_category =  $this->_categoryFactory->create()->load($id);
+				// $id = $this->_storeManager->getStore()->getRootCategoryId();
+				$id = 27; // Shop Category ID: 27
+				$_category =  $this->_categoryFactory->create()->load($id); 
+
 				$children_category = explode(",", $_category->getChildren());
+
+
 				$_category =  $this->_categoryFactory->create()->load($children_category[0]);
 				
 				$todayStartOfDayDate = $this->_localeDate->date()->setTime(0, 0, 0)->format('Y-m-d H:i:s');
@@ -229,7 +234,8 @@ class Producttab extends \Magento\Catalog\Block\Product\AbstractProduct
 			}
 			
 			public function getMostviewsProduct() {
-				$id = $this->_storeManager->getStore()->getRootCategoryId();
+				// $id = $this->_storeManager->getStore()->getRootCategoryId();
+				$id = 27;
 				$_category =  $this->_categoryFactory->create()->load($id);
 				$children_category = explode(",", $_category->getChildren());
 				$_category =  $this->_categoryFactory->create()->load($children_category[0]);

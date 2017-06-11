@@ -92,13 +92,13 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
         $fieldset->addField(
             'shipping_arrival_timeslot',
             'select',
-            ['name' => 'shipping_arrival_timeslot', 'label' => __('Delivery Time Slot'), 'title' => __('Delivery Time Slot'),'values' => $options,]
+            ['name' => 'shipping_arrival_timeslot', 'label' => __('Delivery Time'), 'title' => __('Delivery Time'),'values' => $options,]
         );
 
         $fieldset->addField(
             'shipping_arrival_comments',
             'textarea',
-            ['name' => 'shipping_arrival_comments', 'label' => __('Shipping Arrival Comment'), 'title' => __('Shipping Arrival Comment')]
+            ['name' => 'shipping_arrival_comments', 'label' => __('Delivery Comments'), 'title' => __('Delivery Comments')]
         );
         $form->setValues($order->getData());
         $form->setUseContainer(true);

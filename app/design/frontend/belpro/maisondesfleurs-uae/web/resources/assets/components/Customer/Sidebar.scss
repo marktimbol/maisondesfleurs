@@ -1,9 +1,18 @@
 .account {
 	.sidebar {
-		.block .title strong {
-			font-size: 18px;
-			font-family: Montserrat, 'Arimo',sans-serif;
+		.block-collapsible-nav-title {
+		    border: 0;
+		    padding: 13px 20px;
+		    background: $primary;
+			strong {			
+			    color: #fff;
+			    font-size: 14px;
+			    font-weight: bold;
+			    text-transform: uppercase;
+			    font-family: 'Arimo',sans-serif;
+			}
 		}
+
 		.nav.items {
 			.current strong {
 				color: #bc9051;

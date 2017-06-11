@@ -84,9 +84,9 @@ class Featureproductslider extends \Magento\Catalog\Block\Product\AbstractProduc
 		}
 
 		public function getFeaturedProduct() {
-			 $storeId = $this->_storeManager->getStore()->getId();
-			 $customerGroupId = $this->getCustomerGroupId();
-			 $websiteId = $this->_storeManager->getStore($storeId)->getWebsiteId();
+			$storeId = $this->_storeManager->getStore()->getId();
+			$customerGroupId = $this->getCustomerGroupId();
+			$websiteId = $this->_storeManager->getStore($storeId)->getWebsiteId();
 
 			/** @var $product \Magento\Catalog\Model\Product */
 			$product = $this->productFactory->create();

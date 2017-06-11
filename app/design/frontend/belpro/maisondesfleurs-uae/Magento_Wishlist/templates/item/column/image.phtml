@@ -8,8 +8,12 @@
 
 /* @var \Magento\Wishlist\Model\Item $item */
 $item = $block->getItem();
-// $product = $item->getProduct();
-$product = $item->getOptionByCode('simple_product')->getProduct();
+$product = $item->getProduct();
+
+if ($product->getTypeId() == \Magento\ConfigurableProduct\Model\Product\Type\Configurable::TYPE_CODE) {
+	$product = $item->getOptionByCode('simple_product')->getProduct();
+}
+
 ?>
 
 <a class="product-item-photo" href="<?php /* @escapeNotVerified */ echo $block->getProductUrl($item) ?>" title="<?php echo $block->escapeHtml($product->getName()) ?>">
